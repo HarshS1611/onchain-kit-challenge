@@ -43,7 +43,7 @@ export const COUNTER_ABI = [
   },
 ] as const
 
-export const COUNTER_ADDRESS: Address = (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS as Address) || '0x8b8868D4a5fE04214Aa4Af09D1125C4EC8993367'
+export const COUNTER_ADDRESS: Address = (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS as Address);
 
 export const CONTRACT_CONFIG = {
   address: COUNTER_ADDRESS,

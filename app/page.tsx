@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import styles from "./page.module.css";
 import { Wallet, useGetETHBalance } from "@coinbase/onchainkit/wallet";
 import { useAccount } from "wagmi";
